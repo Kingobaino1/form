@@ -3,7 +3,7 @@
 
 - In this project we:
   - Create User model
-  - Create three forms(palin html, form_tag and a form_for) in the new.html.erb and in edit.html.erb
+  - Create three forms(plain html, form_tag and a form_for) in the new.html.erb and in edit.html.erb
   - Add in user_controller the action new, create, edit, update
  
 
