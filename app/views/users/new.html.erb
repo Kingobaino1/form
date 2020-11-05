@@ -33,13 +33,4 @@
   </ul>
 <% end %>
 
-
-<%= form_for @user do |f| %>
-  <%= f.label :username, 'Enter your name' %>
-  <%= f.text_field :username %>
-  <%= f.label :email, 'Here enter your email' %>
-  <%= f.email_field :email, placeholder: "example@example.com" %>
-  <%= f.label :paswword, 'Enter your password' %>
-  <%= f.password_field :password, placeholder: "xxxxxxx" %>
-  <%= f.submit 'Save' %>
-<% end %>
+<%= render 'form' %>
